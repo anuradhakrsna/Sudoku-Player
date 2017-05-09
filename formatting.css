@@ -1,0 +1,163 @@
+/*
+ * Program Header
+ */
+.TitlePane
+{
+	-fx-background-color: #FFFFFF;
+	-fx-padding: 20, 0, 20, 0;	
+}
+
+/*
+ * Menu page
+ */
+VBox
+{
+	-fx-border-style: dotted;
+	-fx-border-width: 5 0 0 0;
+	-fx-border-color: #6A6D6E;
+	-fx-background-color: #E7ECED;
+	-fx-spacing: 10px; 
+	-fx-alignment: center;
+}
+
+/*
+ * Main menu button
+ */
+.button 
+{
+	-fx-font-family: "Gafata";
+	-fx-font-size: 50px;
+	-fx-text-fill: #402D1E;
+	-fx-background-color: null;
+}
+
+.button:hover
+{
+	-fx-text-fill: #5898A8;
+	-fx-cursor: hand;
+}
+
+/*
+ * Sudoku grid
+ */
+
+SudokuGrid
+{
+	-fx-border-style: dotted;
+	-fx-border-width: 5 0 0 0;
+	-fx-border-color: #6A6D6E;
+	-fx-background-color: #E7ECED;
+	-fx-alignment: center;
+}
+
+
+InputMenu
+{
+	-fx-border-style: dotted;
+	-fx-border-width: 5 0 0 0;
+	-fx-border-color: #6A6D6E;
+	-fx-background-color: #E7ECED;
+	-fx-alignment: center;
+	-fx-padding: 50;
+}
+
+InputMenu .button 
+{
+	-fx-font-size: 10px;
+}
+
+StackPane .button 
+{
+	-fx-font-size: 1px;
+}
+
+.StackPaneCustom
+{
+	-fx-background-color: #E7ECED;
+	-fx-border-style: dotted;
+	-fx-border-width: 5 0 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+StackPane {
+	-fx-padding: 0px;
+}
+
+
+StackPane .text-field {
+	-fx-alignment: center;
+	-fx-font-size: 12;
+    -fx-pref-width: 4.5em ;
+    -fx-pref-height: 4.5em ;
+    -fx-display-caret: false;
+    -fx-font-family: "Gafata";
+}
+
+
+
+
+ 
+.cell 
+{
+    -fx-background-color:  brown, -fx-base ;
+    -fx-background-insets: 2, 2 ;
+    -fx-padding: 2px ;
+}
+ 
+.cell:right {
+    -fx-background-insets: 0, 0 2 0 0 ;
+}
+
+.cell:bottom {
+    -fx-background-insets: 0, 0 0 2 0 ;
+}
+
+.cell:right:bottom {
+    -fx-background-insets: 0, 0 2 2 0 ;
+}
+
+.cell:left {
+    -fx-background-insets: 0, 0 0 0 2 ;
+}
+
+.cell:top {
+    -fx-background-insets: 0, 2 0 0 0 ;
+}
+
+.cell:top:left {
+    -fx-background-insets: 0, 2 0 0 2 ;
+}
+
+.cell .text-field {
+	-fx-alignment: center;
+	-fx-font-size: 11;
+    -fx-pref-width: 4.2em ;
+    -fx-pref-height: 4.2em ;
+}
+
+
+.cell .text-field:focused {
+	-fx-control-inner-background: yellow ;
+}
+*/
